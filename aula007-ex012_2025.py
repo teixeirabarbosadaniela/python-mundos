@@ -3,7 +3,7 @@
 # d = n-(5/100)
 # print(f'O preço do produto é R${n} e, com desconto de 5%, passa a ser R${d}')
 
-n = float(input('Quanto custa o produto?'))
+n = float(input('Quanto custa o produto?R$'))
 d = n-(n*5/100)
-print(f'O preço do produto é R${n} e, com desconto de 5%, passa a ser R${d:.2f}')
+print(f'O preço do produto é R${n:.2f} e, com desconto de 5%, passa a ser R${d:.2f}.')
 
